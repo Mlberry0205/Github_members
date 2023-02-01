@@ -1,11 +1,15 @@
 import React from 'react'
 import './MemberCard.css'
 
-const MemberCard = ({avatar, name}) => {
+const MemberCard = ({avatar, userName, link, id, repo}) => {
   return (
-    <div>
+    <div className='card' id={id}>
       <img className='image' src={avatar}/>
-      <h3 className='title'>{name}</h3>
+      <h3 className='title'>{userName}</h3>
+      <h3 className='link'>{link}</h3>
+      <p className='link'>{repo}</p>
     </div>
   )
 }
+
+export default MemberCard

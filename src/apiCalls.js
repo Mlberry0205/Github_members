@@ -1,27 +1,28 @@
 
-const MY_KEY = process.env.REACT_APP_API_KEY
+const MY_KEY = process.env.REACT_APP_API_KEY;
 const { Octokit } = require("@octokit/core");
 const octokit = new Octokit({
-  auth: '${MY_KEY}'
-})
-
-
+  auth: `token ${MY_KEY}`
+});
 
 const getMembers = async () => {
   try {
-    const response = 
-      await octokit.request('GET /users{?since,per_page}', {per_page:10});
-      console.log(response.data)
-      if (!response.ok) {
-      console.log(response.status)
-      throw new Error(response.status)
+    const response = await octokit.request('GET /users{?since,per_page}', {per_page:10});
+    if (response.status !== 200) {
+      throw new Error(response.status);
     }
-    const data = await response.json()
-    return data
+    return response.data;
+  } catch (error) {
+    console.error(error.message);
+    throw error;
   }
-  catch (error) {
-    console.log(error.message)
-  }
-}
+};
 
-export { getMembers }
+getMembers()
+  .then(data => console.log("JOE", data))
+  .catch(error => console.error(error));
+//.then goes after the result of the API request
+  console.log('Did it work?', getMembers())
+
+export { getMembers };
+
