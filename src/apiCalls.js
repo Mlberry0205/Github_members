@@ -1,11 +1,11 @@
-// Octokit.js
-// https://github.com/octokit/core.js#readme
+
+const MY_KEY = process.env.REACT_APP_API_KEY
 const { Octokit } = require("@octokit/core");
 const octokit = new Octokit({
-  auth: ''
+  auth: '${MY_KEY}'
 })
 
-// await octokit.request('GET /user', {})
+
 
 const getMembers = async () => {
   try {
