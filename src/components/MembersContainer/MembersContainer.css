@@ -1,0 +1,8 @@
+.members-container {
+  display: flex;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 40px; */
+  border: 2px solid black;
+}
