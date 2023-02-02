@@ -4,7 +4,6 @@ import logo from '../../Images/logo.png'
 import { getMembers } from '../../apiCalls'
 import MembersContainer from '../MembersContainer/MembersContainer'
 import MemberCard from '../MemberCard/MemberCard'
-const { Octokit } = require("@octokit/core");
 
 const App = () => {
   const [members, setMembers] = useState([])

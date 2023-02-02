@@ -1,0 +1,33 @@
+.card {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: medium;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #665e8c;
+  box-shadow: 3px 5px 5px grey;
+  height: 300px;
+  width: 215px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.link {
+  text-align: center;
+  color: white;
+}
+
+.repo {
+  text-align: center;
+  color: white;
+}
