@@ -7,7 +7,8 @@ const MembersContainer = ({ members }) => {
     return (
       <MemberCard
         userName={result.login}
-        link={result.url}
+        link={result.html_url}
+        pLink={result.url}
         avatar={result.avatar_url}
         name={result.name}
         location={result.location}
