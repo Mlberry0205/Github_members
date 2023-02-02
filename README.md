@@ -1,12 +1,11 @@
 <p align="center">
-<img width='300' alt='Github_members logo' src='https://user-images.githubusercontent.com/102934145/215936359-e61ff3b8-964b-402c-b7dd-d8617eb5e96b.png'>
+<img width='200' alt='Github_members logo' src='https://user-images.githubusercontent.com/102934145/215936359-e61ff3b8-964b-402c-b7dd-d8617eb5e96b.png'>
 </p>
 
-### [Deployed Project]()
+### [Deployed Project](https://github-members.vercel.app/)
 
 ## Overview
-The goal of theis take home challenge was to create a paginated single page application using React that lists some
-information about each user in a “member card” and displays a directory of 10 cards per page.
+The goal of theis take home challenge was to create a paginated single page application using React that lists some information about each user in a “member card” and displays a directory of 10 cards per page.
 
 ## Setup
 1. From your terminal, `cd` back to your parent directory
@@ -31,12 +30,13 @@ information about each user in a “member card” and displays a directory of 1
 
 ## Dev Notes
 ### Wins
-- [x] Create a beautiful UX/UI
+- [X] Utalizing Octokit in fetch request
 - [x] Creating a responsive design
+- [x] Creating a quick eyecatching UX/UI
 
 ## Future Features
 - [X] Allowing users to click on an avatar to view specific information on that user
-- [X] Adding graphics
+- [X] Adding graphics that move 
 
 
 ## Developed by:
@@ -46,4 +46,5 @@ morganlyn.berry@gmail.com |
 [LinkedIn](https://www.linkedin.com/in/morgan-lyn-berry/)
 
 ## Project planning & Acknowledgments 
-[Project Board with User Stories]
+[Project Board](https://github.com/users/Mlberry0205/projects/8/views/1) |
+[Wire Frame and component arcitecture](https://www.figma.com/file/jvs7WsZyh7T5Nx1G66AQER/GIthub-Members?node-id=0%3A1&t=LYwMCqpYV60Intas-0)
