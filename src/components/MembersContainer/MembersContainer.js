@@ -8,12 +8,7 @@ const MembersContainer = ({ members }) => {
       <MemberCard
         userName={result.login}
         link={result.html_url}
-        pLink={result.url}
         avatar={result.avatar_url}
-        name={result.name}
-        location={result.location}
-        email={result.email}
-        repo={result.public_repos}
         id={result.id}
         key={result.id}
       />

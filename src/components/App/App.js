@@ -24,7 +24,6 @@ const App = () => {
       </nav>
       <main>
         <MembersContainer  members={members} />
-        <MemberCard members={members} /> 
       </main>
       <footer className='footer-container'>
         <p className='footer'>&#169; <a href='https://github.com/Mlberry0205'>Morgan Berry</a></p>
