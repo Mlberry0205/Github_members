@@ -6,8 +6,12 @@
   border-radius: 10px;
   background-color: #665e8c;
   box-shadow: 3px 5px 5px grey;
-  height: 315px;
+  height: 415px;
   width: 215px;
+}
+
+.card:hover {
+  background-color: #a19fe1;
 }
 
 .image {
