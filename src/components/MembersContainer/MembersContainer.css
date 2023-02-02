@@ -2,7 +2,19 @@
   display: flex;
   justify-content: space-evenly;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* grid-gap: 40px; */
-  border: 2px solid black;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 40px; 
+}
+
+@media screen and (min-width: 890px) {
+  .member-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+  .member-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

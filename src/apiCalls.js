@@ -7,7 +7,7 @@ const octokit = new Octokit({
 
 const getMembers = async () => {
   try {
-    const response = await octokit.request('GET /users{?since,per_page}', {per_page:10});
+    const response = await octokit.request('GET /users{?since,per_page}', {per_page:15});
     if (response.status !== 200) {
       throw new Error(response.status);
     }
@@ -19,10 +19,9 @@ const getMembers = async () => {
 };
 
 getMembers()
-  .then(data => console.log("JOE", data))
+  .then(data => console.log(data))
   .catch(error => console.error(error));
-//.then goes after the result of the API request
-  console.log('Did it work?', getMembers())
+   console.log(getMembers())
 
 export { getMembers };
 
