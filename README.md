@@ -24,7 +24,6 @@ The goal of theis take home challenge was to create a paginated single page appl
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Dev Notes
 ### Wins
@@ -34,7 +33,7 @@ The goal of theis take home challenge was to create a paginated single page appl
 
 ## Future Features
 - [X] Allowing users to click on an avatar to view specific information on that user
-- [X] Adding graphics that move 
+- [X] Adding in search functionality
 
 
 ## Developed by:
